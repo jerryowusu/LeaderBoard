@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+  margin: 10px;
+  padding: 5%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  padding: 5%;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+#left {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-right: 8%;
+}
+
+#right {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.scores {
+  border: 3px solid #000;
+}
+
+.score {
+  padding: 10px;
+}
+
+.score:nth-child(even) {
+  background-color: #ccc;
+}
+
+.input {
+  margin-bottom: 15%;
+  height: 2.5rem;
+}
+
+.btn {
+  padding: 3px 10px;
+  box-shadow: 2px 3px #000;
+}
+
+.submit-btn {
+  width: 30%;
+  margin-left: 11.5rem;
+}
