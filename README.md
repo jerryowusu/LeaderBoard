@@ -1,9 +1,9 @@
-# ToDo List
+# LeaderBoard
+
 The leaderBoard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external LeaderBoard API service. This is a project I did under Microverse using HTML, CSS, Webpack and modern JavaScript syntax.
 
 ## Live Demo
-
-
+Will be updated very soon
 
 
 ## Built With!
