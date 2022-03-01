@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack Exercise</title>
+    <title>Leader Board</title>
 </head>
-<body>
-    <h1>Hello webpack!</h1>
+<body >
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <main class="main-body">
+        <div id="left" class="">
+            <div class="heading">
+                <h2 class="col-9">Recent scores</h2>
+                <button class="refresh-btn btn">Refresh</button>
+            </div>
+            <div class="scores">
+                <p class="score">Messi: 100</p>
+                <p class="score">Pogba: 20</p>
+                <p class="score">Ibrahimovic: 50</p>
+                <p class="score">Kaka: 78</p>
+                <p class="score">Ronaldo: 125</p>
+                <p class="score">Hazard: 77</p>
+                <p class="score">Jerry: 101</p>
+                <p class="score">Benzema: 42</p>
+            </div>
+        </div>
+        <div id="right" class="right">
+            <div class="heading">
+                <h2>Add your score</h2>
+            </div>
+            <form id="form"  action="">
+                <input  class="input input-name" type="text" placeholder="Your name">
+                <input  class="input input-score" type="text" placeholder="Your score">
+                <button class="submit-btn btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>project by jerry</p>
+    </footer>
 </body>
 </html>
