@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
@@ -15,6 +14,15 @@ main {
   flex-direction: row;
   width: 85%;
   padding: 5%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
 }
 
 h1 {
@@ -50,8 +58,12 @@ h1 {
 }
 
 .score {
+  display: flex;
+  justify-content: space-between;
   padding: 10px;
+  font-weight: bolder;
 }
+
 
 .score:nth-child(even) {
   background-color: #ccc;
@@ -65,9 +77,6 @@ h1 {
 .btn {
   padding: 3px 10px;
   box-shadow: 2px 3px #000;
+  align-self: end;
 }
 
-.submit-btn {
-  width: 30%;
-  margin-left: 11.5rem;
-}
