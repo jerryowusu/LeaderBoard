@@ -64,7 +64,6 @@ h1 {
   font-weight: bolder;
 }
 
-
 .score:nth-child(even) {
   background-color: #ccc;
 }
@@ -79,4 +78,3 @@ h1 {
   box-shadow: 2px 3px #000;
   align-self: end;
 }
-
