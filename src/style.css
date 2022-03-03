@@ -9,9 +9,9 @@ body {
   padding: 5%;
   background-image: url('images/pexels-photo-531880.jpeg');
   background-repeat: no-repeat;
-  background-size: cover; 
-  font-size: smaller; 
-  }
+  background-size: cover;
+  font-size: smaller;
+}
 
 main {
   display: flex;
@@ -98,7 +98,7 @@ h2 {
   background: rgba(171, 228, 15, 0.826);
   border: none;
   border-radius: 15px;
-  }
+}
 
 footer p {
   font-size: larger;
@@ -126,14 +126,13 @@ footer p {
 
   .input {
     height: 2.5rem;
-  font-size: large;
+    font-size: large;
   }
 
   .btn {
     width: 7rem;
     height: 2.5rem;
-  font-size: larger;
-  padding: 5px 15px;
-
+    font-size: larger;
+    padding: 5px 15px;
   }
 }

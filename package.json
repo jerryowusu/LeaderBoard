@@ -1,29 +1,32 @@
 {
-  "name": "to-do-list",
+  "name": "leader-board",
   "version": "1.0.0",
-  "description": "I created a JavaScript ES6 ToDo list by using webpack to bundle JavaScript.",
+  "description": "I created a JavaScript ES6 LeaderBoard by using webpack to bundle JavaScript.",
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack serve --open",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jerryowusu/To-Do-List.git"
+    "url": "git+https://github.com/jerryowusu/LeaderBoard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jerryowusu/To-Do-List/issues"
+    "url": "https://github.com/jerryowusu/LeaderBoard/issues"
   },
-  "homepage": "https://github.com/jerryowusu/To-Do-List#readme",
+  "homepage": "https://github.com/jerryowusu/LeaderBoard",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.4",
+    "gh-pages": "^3.2.3",
     "hint": "^6.1.9",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
