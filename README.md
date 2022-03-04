@@ -2,7 +2,7 @@
 
 The leaderBoard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external LeaderBoard API service. This is a project I did under Microverse using HTML, CSS, Webpack and modern JavaScript syntax.
 
-![leaderBoard](https://user-images.githubusercontent.com/65233860/156544096-f9852282-3322-4652-9438-19751f107bf9.png)
+![Screenshot (36)](https://user-images.githubusercontent.com/65233860/156852219-e38257d9-1461-4b26-be3c-53055de73793.png)
 
 ## Live Demo
 [live demo](https://jerryowusu.github.io/LeaderBoard/dist) 
