@@ -5,7 +5,7 @@ The leaderBoard website displays scores submitted by different players. It also 
 ![leaderBoard](https://user-images.githubusercontent.com/65233860/156544096-f9852282-3322-4652-9438-19751f107bf9.png)
 
 ## Live Demo
-![leaderBoard live demo](https://jerryowusu.github.io/LeaderBoard/dist) 
+[live demo](https://jerryowusu.github.io/LeaderBoard/dist) 
 
 
 ## Built With!
