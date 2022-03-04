@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #313f45;
+  --color: #1aed8b;
+  --color2: #fff;
+  --background: #0a3b4d;
+  --shadow: 3px 10px 20px #1aed8b;
+  --shadow2: 1px 1px 12px #1aed8b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,22 +16,18 @@
 body {
   margin: 10px;
   padding: 5%;
-  background-image: url('images/pexels-photo-531880.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--background);
   font-size: smaller;
 }
 
 main {
   display: flex;
   flex-direction: row;
-  width: 85%;
   padding: 5%;
 }
 
 footer {
   text-align: center;
-  margin-top: 20%;
 }
 
 li {
@@ -30,40 +35,54 @@ li {
 }
 
 h1 {
-  font-size: 2.2rem;
-  color: #66fcf1;
+  font-size: 2rem;
+  color: var(--color);
+  text-align: center;
 }
 
 h2 {
-  color: #ff652f;
+  color: var(--color2);
 }
 
 .heading {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5%;
+  margin: 20px;
 }
 
 #left {
   display: flex;
   width: 60%;
   flex-direction: column;
-  margin-right: 8%;
+  margin-right: 10%;
+  color: var(--color2);
 }
 
 #right {
   display: flex;
-  width: 40%;
+  width: 25%;
   flex-direction: column;
+  color: var(--color2);
 }
 
 #form {
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
 }
 
 .scores {
-  border: 3px solid #000;
+  background-color: #0a3b4d;
+  height: 50%;
+  overflow-y: auto;
+  margin-top: 50px;
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.scores::-webkit-scrollbar {
+  display: none;
 }
 
 .score {
@@ -73,36 +92,38 @@ h2 {
   font-weight: bold;
 }
 
-.score:nth-child(even) {
-  color: #da7b93;
-}
-
-.score:nth-child(odd) {
-  background-color: rgba(171, 228, 15, 0.826);
-}
-
 .input {
   margin-bottom: 15%;
   height: 2rem;
-  font-size: medium;
-  border-radius: 10px;
+  font-size: small;
+  padding: 3px;
   outline: none;
-  background-color: whitesmoke;
+  color: var(--color2);
+  background-color: #0a3b4d;
+  border: none;
+  box-shadow: var(--shadow2);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.input::placeholder {
+  color: var(--color2);
+  text-align: center;
 }
 
 .btn {
   padding: 3px 10px;
-  box-shadow: 2px 3px #000;
-  align-self: end;
-  color: #313133;
-  background: rgba(171, 228, 15, 0.826);
-  border: none;
+  box-shadow: var(--shadow2);
   border-radius: 15px;
+  align-self: end;
+  color: var(--color2);
+  background: #0a3b4d;
+  border: none;
 }
 
 footer p {
   font-size: larger;
-  color: #66fcf1;
+  color: #1aed8b;
 }
 
 @media screen and (min-width: 480px) {
