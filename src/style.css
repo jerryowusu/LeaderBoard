@@ -3,8 +3,9 @@
   --color: #1aed8b;
   --color2: #fff;
   --background: #0a3b4d;
-  --shadow: 3px 10px 20px #1aed8b;
-  --shadow2: 1px 1px 12px #1aed8b;
+  --shadow: 3px 1px 20px #1aed8b;
+  --shadow2:  rgba(0, 0, 0, 0.7) 0px 2px 20px, rgba(0, 0, 0, 0.7) 0px 3px 10px;
+  --shadow3: rgba(0, 0, 0, 0.7) 0px 1px 48px, rgba(0, 0, 0, 0.7) 0px 1px 12px;
 }
 
 * {
@@ -72,11 +73,11 @@ h2 {
 }
 
 .scores {
-  background-color: #0a3b4d;
+  background-color: var(--background);
   height: 50%;
   overflow-y: auto;
   margin-top: 50px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow3);
   border-radius: 20px;
   padding: 30px;
 }
@@ -113,12 +114,24 @@ h2 {
 
 .btn {
   padding: 3px 10px;
-  box-shadow: var(--shadow2);
+  box-shadow: var(--shadow3);
   border-radius: 15px;
   align-self: end;
   color: var(--color2);
   background: #0a3b4d;
   border: none;
+}
+
+.input:focus  {
+  box-shadow: var(--shadow);
+}
+
+.scores:hover, .scores:focus {
+  box-shadow: var(--shadow);
+}
+
+.btn:active {
+  box-shadow: var(--shadow);
 }
 
 footer p {
