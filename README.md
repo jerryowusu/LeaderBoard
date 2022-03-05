@@ -6,7 +6,7 @@ The leaderBoard website displays scores submitted by different players. It also 
 
 ## Live Demo
  
-
+[Screenshot](https://jerryowusu.github.io/LeaderBoard/dist/)
 
 ## Built With!
 
