@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "I created a JavaScript ES6 LeaderBoard by using webpack to bundle JavaScript.",
   "private": "true",
-  "homepage": "https://jerryowusu.github.io/LeaderBoard/dist/"
+  "homepage": "https://jerryowusu.github.io/LeaderBoard/dist"
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
